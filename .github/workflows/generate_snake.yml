@@ -2,7 +2,7 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *" # roda todo dia à meia-noite
+    - cron: "0 0 * * *" # Todo dia à meia-noite
   workflow_dispatch:
 
 permissions:
@@ -11,28 +11,52 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+    
     steps:
-      - name: Checkout do código
+      - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
-      - name: Gerar animação da cobrinha 🐍
+      - name: Generate Snake
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/snake.svg
+            dist/snake-dark.svg?palette=dark
             dist/snake.gif
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Atualizar branch principal
+      - name: Show files
         run: |
-          git config --global user.email "github-actions@github.com"
-          git config --global user.name "github-actions"
-          git pull origin main --rebase
+          ls -la dist/
+          echo "Git status:"
+          git status
 
-      - name: Commit e Push do arquivo gerado
-        uses: EndBug/add-and-commit@v9
-        with:
-          author_name: github-actions
-          author_email: github-actions@github.com
-          message: "gera animacao da cobrinha"
-          add: "dist/snake.svg dist/snake.gif"
+      - name: Commit and push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          # Adiciona os arquivos
+          git add dist/
+          
+          # Verifica se há mudanças
+          if git diff --staged --quiet; then
+            echo "✅ Nenhuma mudança detectada"
+            exit 0
+          fi
+          
+          # Faz o commit
+          git commit -m "🐍 Atualiza animação da cobrinha [skip ci]"
+          
+          # Tenta fazer push com retry
+          for i in {1..3}; do
+            echo "🔄 Tentativa $i de push..."
+            git pull --rebase origin main && git push origin main && break
+            sleep 5
+          done
