@@ -117,7 +117,7 @@ Aqui estão algumas das tecnologias e ferramentas com as quais trabalho ou estou
 
 <!-- Animação da Cobrinha -->
 <div align="center">
-  <img src="https://github.com/RobertoSilvaDevFullStack/RobertoSilvaDevFullStack/raw/output/github-contribution-grid-snake.svg" alt="Animação de cobra com contribuições do GitHub" />
+  <img src="https://github.com/RobertoSilvaDevFullStack/RobertoSilvaDevFullStack/raw/main/.github/workflows/github-contribution-grid-snake.svg" alt="Animação de cobra com contribuições do GitHub" />
 </div>
 
 ---
