@@ -27,12 +27,12 @@
 
 Aqui estão alguns dos meus projetos mais relevantes no GitHub (clique para ver a demo):
 
-- [**Loja Dev - E-commerce Responsivo**](https://robertosilva19.github.io/loja_dev/): Layout completo e responsivo para uma loja virtual, focando em interface intuitiva e experiência de compra fluida. (HTML5, CSS3, JavaScript, Bootstrap)
-- [**Loja Meteora - E-commerce com Design Moderno**](https://robertosilva19.github.io/Landing-Page-Meteora/): Desenvolvimento de uma página de e-commerce com foco em design moderno e responsividade, apresentando produtos de forma visualmente atraente. (HTML5, CSS3, JavaScript)
-- [**web_api_clinica - API RESTful para Gestão de Clínicas**](https://robertosilva19.github.io/web_api_clinica/): Criação de uma API RESTful robusta para simular um sistema de gestão de clínicas, demonstrando backend com endpoints CRUD para pacientes, agendamentos e serviços. (Node.js/Express.js, PostgreSQL/MySQL, ORM)
-- [**Calmaria Spa - Website Moderno e Responsivo**](https://robertosilva19.github.io/Projeto-Calmaria-Spa---Full-Stack/): Desenvolvimento de um website moderno e totalmente responsivo para um spa, destacando a criação de interfaces atraentes e funcionais para negócios de serviços. (HTML5, CSS3, JavaScript)
-- [**Landing Page Profissional - Foco em Conversão**](https://robertosilva19.github.io/Landing_Page_Fer/): Criação de uma landing page profissional e responsiva, otimizada para capturar leads e direcionar o usuário a uma ação específica. (HTML5, CSS3, JavaScript)
-- [**Portfólio Pessoal - Vitrine Profissional**](https://robertosilvadevfullstack.github.io/Portfolio_Pessoal/#apresentacao): Meu portfólio pessoal, uma aplicação web responsiva que apresenta habilidades e projetos de forma clara, demonstrando competências em Front-end e design adaptável. (HTML5, CSS3, JavaScript)
+- [**Loja Dev - E-commerce Responsivo**](https://robertosilvadevfullstack.github.io/loja_dev/): Layout completo e responsivo para uma loja virtual, focando em interface intuitiva e experiência de compra fluida. (HTML5, CSS3, JavaScript, Bootstrap)
+- [**Loja Meteora - E-commerce com Design Moderno**](https://loja-meteora-bay.vercel.app/): Desenvolvimento de uma página de e-commerce com foco em design moderno e responsividade, apresentando produtos de forma visualmente atraente. (HTML5, CSS3, JavaScript)
+- [**web_api_clinica - API RESTful para Gestão de Clínicas**](https://github.com/RobertoSilvaDevFullStack/web_api_clinica): Criação de uma API RESTful robusta para simular um sistema de gestão de clínicas, demonstrando backend com endpoints CRUD para pacientes, agendamentos e serviços. (Node.js/Express.js, PostgreSQL/MySQL, ORM)
+- [**Calmaria Spa - Website Moderno e Responsivo**](https://robertosilvadevfullstack.github.io/Projeto-Calmaria-Spa---Full-Stack/): Desenvolvimento de um website moderno e totalmente responsivo para um spa, destacando a criação de interfaces atraentes e funcionais para negócios de serviços. (HTML5, CSS3, JavaScript)
+- [**Landing Page Profissional - Foco em Conversão**](https://robertosilvadevfullstack.github.io/Landing_Page_Fer/): Criação de uma landing page profissional e responsiva, otimizada para capturar leads e direcionar o usuário a uma ação específica. (HTML5, CSS3, JavaScript)
+- [**Portfólio Pessoal - Vitrine Profissional**](https://robertosilvadevfullstack.github.io/Portfolio_Pessoal/): Meu portfólio pessoal, uma aplicação web responsiva que apresenta habilidades e projetos de forma clara, demonstrando competências em Front-end e design adaptável. (HTML5, CSS3, JavaScript)
 
 ---
 
