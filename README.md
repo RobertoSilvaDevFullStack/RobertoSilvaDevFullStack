@@ -20,7 +20,7 @@
 - 📍 São Paulo, Brasil · aberto a oportunidades presenciais, híbridas ou remotas
 
 ### 🔄 Como eu desenvolvo
-**SDD (Spec-Driven Development)** → **Harness Engineering com Claude Code** → **CI/CD com GitHub Actions**
+**SDD (Spec-Driven Development)** → **Harness Engineering com Claude Code** → **CI/CD com GitHub Actions**<br>
 Planejo por especificação, entrego em fases com Pull Requests, testes e verificações de segurança, e só então vai para produção.
 
 ---
@@ -30,7 +30,7 @@ Planejo por especificação, entrego em fases com Pull Requests, testes e verifi
 > Os repositórios abaixo marcados com 🔒 são privados (trabalho para clientes ou projetos em andamento). Posso apresentar o código e as decisões técnicas em conversa.
 
 ### 🌐 SaveForge · Portfólio, blog e painel administrativo 🔒
-**[saveforge.com.br](https://saveforge.com.br)** · em produção
+**[saveforge.com.br](https://saveforge.com.br)** · em produção<br>
 Meu portfólio é uma aplicação full stack completa: site público, blog com artigos de segurança e DevOps, comentários com moderação e painel admin com **10 módulos** (analytics, leads, backup, logs de auditoria).
 - 🔐 JWT + bcrypt, Helmet, rate limiting e validação com Zod
 - 🧱 React + TypeScript + Vite no front, Node.js/Express + Prisma + PostgreSQL no back
@@ -55,7 +55,7 @@ Front-end completo de marketplace: catálogo com filtros na URL, favoritos otimi
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
 
 ### 🏨 Quiz de Diagnóstico Hoteleiro · Balloon
-**[diagnostico.balloonmkt.com.br](https://diagnostico.balloonmkt.com.br)** · em produção
+**[diagnostico.balloonmkt.com.br](https://diagnostico.balloonmkt.com.br)** · em produção<br>
 Landing interativa usada no stand da Balloon em Maresias: o hoteleiro responde 11 perguntas, recebe uma nota de 0 a 100 e deixa o lead para a equipe comercial.
 - 🧮 Motor de pontuação validado contra as **177.147 combinações** possíveis de resposta
 - 📈 Conversão rastreada com GA4 e Meta Pixel, com deduplicação de eventos
